@@ -1,5 +1,5 @@
 # signup-page
-A little The Matrix sign up page made with Node.js ❤
+A simple The Matrix sign up page made with Node.js ❤
 
 It uses the Mailchimp API to manage a newsletter subscribers list, but it's current API Key was automatically disabled for being within this repository, which is a public one.
 
