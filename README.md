@@ -7,3 +7,5 @@ However, the API works perfectly as it was tested, locally, and the `success.htm
 A `404` gives you the `failure.html`; a `200` gives you the `success.html` 🙂
 
 A new API Key will be generated and the newsletter will be working perfectly, I just need a couple days to get back to it.
+
+🌐 Currently hosted at: https://matrix-signup-page.herokuapp.com/
