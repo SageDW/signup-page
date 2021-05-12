@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+/* __________MAIN elements__________ */
+
+body {
+    background-image: url('images/matrix.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
+    padding: 60px;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(0, 150, 0);
+    border-color: grey;
+    border-radius: 5px;
+    border-style: none;
+    border-width: 1px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 2rem;
+    margin-top: 15px;
+    padding: 2px 60px 2px 60px;
+}
+
+h1 {
+    color: rgb(0, 150, 0);
+    font-size: 3rem;
+    margin: 5px auto 25px;
+    text-shadow: black 2px 2px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin: 5px auto 25px;
+    text-shadow: black 2px 2px;
+}
+
+p {
+    color:rgb(0, 150, 0);
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-shadow: black 2px 2px;
+}
+
+/* __________DIV elements__________ */
+
+#form {
+    margin: 25px auto 50px;
+    max-width: 30%;
+}
+
+#form img {
+    margin: 5px auto 0px;
+    max-width: 12%;
+}
+
+/* __________INPUT elements__________ */
+
+#form input {
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+#form input:focus {
+    background-color: rgb(0, 150, 0);
+    border-width: 1px;
+    color: white;
+}
+
+#firstName {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-color: rgb(177, 177, 177);
+    border-style: solid;
+    border-width: 1px;
+
+    margin-bottom: -1px;
+    padding: 18px;
+    width: 70%;
+}
+
+#lastName {
+    border-color: rgb(177, 177, 177);
+    border-style: solid;
+    border-width: 1px;
+
+    padding: 18px;
+    width: 70%;
+}
+
+#email {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    border-color: rgb(177, 177, 177);
+    border-style: solid;
+    border-width: 1px;
+
+    margin-top: -1px;
+    padding: 18px;
+    width: 70%;
+}
+
+/* __________FOOTER__________ */
+
+footer {
+    color: white;
+    font-family: sans-serif;
+}
